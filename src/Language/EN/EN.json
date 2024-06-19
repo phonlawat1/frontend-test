@@ -1,0 +1,21 @@
+{
+    "NextTest":"Next Test -->",
+    "MoveShape": "Move Shape",
+    "MovePosition": "Move Position",
+    "RandomPosition": "Random Position",
+    "Back": "Back",
+
+    "PersonalInformation":"Personal Information",
+    "EditPersonalInformation":"Edit Personal Information",
+    "Firstname": "Firstname",
+    "Lastname": "Lastname",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Cancel": "Cancel",
+    "Record": "Record",
+
+    "Id": "Id",
+    "Edit": "Edit",
+    "Delete": "Delete"
+
+}

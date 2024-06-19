@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: groove solid;
+    .selectLang {
+        text-align: end;
+        .btnLang {
+            width: 100px;
+            margin-right: 10px;
+        }
+    }
+    .textLang {
+        text-align: center;
+    }
+    .containershap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .square {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+            background-color: #4caf50;
+            width: 200px;
+            height: 200px;
+            border: none;
+            color: white;
+        }
+
+        .circle {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+            background-color: #008cba;
+            width: 250px;
+            height: 200px;
+            border: none;
+            color: white;
+            border-radius: 50%;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
+            border-bottom: 220px solid #f44336;
+            background: transparent;
+            padding: 0;
+            margin: 20px 10px;
+        }
+
+        .rotated {
+            transform: rotate(-90deg);
+        }
+    }
+    .list-style {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .square {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+            background-color: #4caf50;
+            width: 200px;
+            height: 200px;
+            border: none;
+            color: white;
+        }
+
+        .circle {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+            background-color: #008cba;
+            width: 250px;
+            height: 200px;
+            border: none;
+            color: white;
+            border-radius: 50%;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
+            border-bottom: 220px solid #f44336;
+            background: transparent;
+            padding: 0;
+            margin: 20px 10px;
+        }
+
+        .rotated {
+            transform: rotate(-90deg);
+        }
+    }
+    .buttonforplay {
+        .mshape {
+            margin-right: 40px;
+            padding: 20px;
+            color: white;
+            background-color: #ffa200;
+        }
+        .mshape:hover {
+            background-color: #ffa200;
+            color: black;
+        }
+        .mposition {
+            margin-right: 40px;
+            padding: 20px;
+            color: white;
+            background-color: #6eda78;
+        }
+        .mposition:hover {
+            background-color: #6eda78;
+            color: black;
+        }
+        .mrandom {
+            background-color: #ffa200;
+            padding: 20px;
+            color: white;
+        }
+        .mrandom:hover {
+            background-color: #6eda78;
+            color: black;
+        }
+    }
+}

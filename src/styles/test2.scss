@@ -1,0 +1,20 @@
+.containerform {
+    .selectLang {
+        text-align: end;
+        .btnLang {
+            width: 100px;
+            margin-right: 10px;
+        }
+    }
+    .titleform {
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .form {
+        .ant-form-item-required {
+            font-size: 16px;
+        }
+    }
+}

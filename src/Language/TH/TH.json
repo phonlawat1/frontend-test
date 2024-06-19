@@ -1,0 +1,20 @@
+{
+    "NextTest": "แบบทดสอบถัดไป",
+    "MoveShape": "ขยับรูปทรง",
+    "MovePosition": "ขยับตำแหน่ง",
+    "RandomPosition": "สุ่มตำแหน่ง",
+    "Back": "ย้อนกลับ",
+
+    "PersonalInformation":"กรอกข้อมูลส่วนบุคคล",
+    "EditPersonalInformation":"แก้ไขข้อมูลส่วนบุคคล",
+    "Firstname": "ชื่อ",
+    "Lastname": "นามสกุล",
+    "Email": "อีเมล",
+    "Phone": "เบอร์โทรศัพท์",
+    "Cancel": "ยกเลิก",
+    "Record": "บันทึก",
+
+    "Id": "ไอดี",
+    "Edit": "แก้ไข",
+    "Delete": "ลบ"
+}
